@@ -46,6 +46,8 @@ const Layout = props => {
 			font-family: 'LeagueSpartan';
 		    src: url('/fonts/leaguespartan-bold-webfont.woff2') format('woff2'),
 		         url('/fonts/leaguespartan-bold-webfont.woff') format('woff');
+		         
+		    font-display: swap;
 		}
 	      
         *,
@@ -77,7 +79,6 @@ const Layout = props => {
 		    font-family: 'LeagueSpartan';
 		    text-transform:uppercase;
 		    letter-spacing: 3px;
-		    font-display: swap;
 	    }
 	    
 	    h2 {
@@ -86,14 +87,12 @@ const Layout = props => {
 			letter-spacing: 2px;
 			font-size: 11px;
 			font-family: 'LeagueSpartan';
-			font-display: swap;
 	    }
         
 	    h3 {
 		    font-size: 20px;
 		    text-transform:uppercase;
 			font-family: 'LeagueSpartan';
-			font-display: swap;
 	    }
 
         a {
