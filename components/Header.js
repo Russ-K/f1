@@ -13,7 +13,7 @@ const Header = props => (
 			<div className="headers">
 				<h1>
 					<Link href="/">
-					<a>
+					<a name="F1 Calendar">
 					Formula One Race Calendar&nbsp;
 					{ props.year && 
 						<span>{ props.year }</span>

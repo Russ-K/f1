@@ -59,7 +59,7 @@ class OptionsBar extends React.Component {
 			.reduce((memo, tz) => {
 				const timezone = tz.offset ? moment.tz(tz.name).format('Z') : '';
 		
-				timezoneItems.push(<option value={tz.name}>(GMT{timezone}) {tz.name.replace("_", " ")}</option>);
+				timezoneItems.push(<option key={tz.name} value={tz.name}>(GMT{timezone}) {tz.name.replace("_", " ")}</option>);
 			}, "");
 			
 		return (

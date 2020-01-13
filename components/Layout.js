@@ -10,7 +10,7 @@ const Layout = props => {
 	return (
     	<div className="content-wrapper">
 			<Head>
-				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>				
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>				
 				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
 				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
 				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
@@ -76,6 +76,7 @@ const Layout = props => {
 		    font-family: 'LeagueSpartan';
 		    text-transform:uppercase;
 		    letter-spacing: 3px;
+		    font-display: swap;
 	    }
 	    
 	    h2 {
@@ -84,12 +85,14 @@ const Layout = props => {
 			letter-spacing: 2px;
 			font-size: 11px;
 			font-family: 'LeagueSpartan';
+			font-display: swap;
 	    }
         
 	    h3 {
 		    font-size: 20px;
 		    text-transform:uppercase;
 			font-family: 'LeagueSpartan';
+			font-display: swap;
 	    }
 
         a {
