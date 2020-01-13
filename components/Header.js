@@ -61,6 +61,7 @@ const Header = props => (
 		    font-family: 'LeagueSpartan';
 		    text-transform:uppercase;
 		    letter-spacing: 3px;
+		    font-display:swap;
 	    }
 	    h1 a {
 		    color:#ffffff;
@@ -73,6 +74,7 @@ const Header = props => (
 			letter-spacing: 2px;
 			font-size: 11px;
 			font-family: 'LeagueSpartan';
+			font-display:swap;
 	    }
 	    h2 a {
 		    color:#1a8b73;

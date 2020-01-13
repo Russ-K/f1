@@ -18,7 +18,8 @@ const Layout = props => {
 				<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#eb000f"/>
 				<meta name="msapplication-TileColor" content="#000000"/>
 				<meta name="theme-color" content="#ffffff"/>
-				<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous"/>
+				<script defer src="https://pro.fontawesome.com/releases/v5.12.0/js/solid.js" integrity="sha384-ejND26kSb92qqj9cH70EMoR8jytCElYWiCB0v+JkXBz6+2ccBkNJkJZuMmrXY9L+" crossorigin="anonymous"></script>
+				<script defer src="https://pro.fontawesome.com/releases/v5.12.0/js/fontawesome.js" integrity="sha384-YdKgBdzRKP5F/uorpoOtlS1fRNfveZicpRkkQTn0pQdqGWQs6AMr7Jby3mA/G53+" crossorigin="anonymous"></script>
 			</Head>
 			<noscript>
 				<div className="noscript">F1 Calendar works best with Javascript Enabled.</div>
