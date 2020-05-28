@@ -169,6 +169,22 @@
 	    	}
     	},
     	{
+	    	"name": "Dutch",
+	    	"location": "Zandvoort",
+	    	"latitude": 52.388408,
+	    	"longitude": 4.547122,
+	    	"canceled": true,
+	    	"round": 5,
+	    	"slug": "dutch-grand-prix",
+	    	"sessions": {
+  				"fp1" : "2020-05-01T09:00:00Z",
+  				"fp2" : "2020-05-01T13:00:00Z",
+  				"fp3" : "2020-05-02T10:00:00Z",
+  				"qualifying" : "2020-05-02T13:00:00Z",
+  				"race" : "2020-05-03T13:10:00Z"
+	    	}
+    	},
+    	{
 	    	"name": "Monaco",
 	    	"location": "Monte Carlo",
 	    	"latitude": 43.7338,
@@ -415,16 +431,6 @@
 	    	"tbc":true,
 	    	"round": 4,
 	    	"slug": "china-grand-prix"
-    	},
-    	{
-	    	"name": "Dutch",
-	    	"location": "Zandvoort",
-	    	"latitude": 52.388408,
-	    	"longitude": 4.547122,
-	    	"affiliate": "https://www.bookf1.com/f1-netherlands/tickets.htm?af=165390",
-	    	"tbc":true,
-	    	"round": 5,
-	    	"slug": "dutch-grand-prix"
     	},
     	{
 	    	"name": "Spanish",
